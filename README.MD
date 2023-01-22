@@ -1,2 +1,2 @@
-# Manager for the website in react
+# Empty react project with tailwind css and scss
 
