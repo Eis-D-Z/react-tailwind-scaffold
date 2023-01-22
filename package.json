@@ -1,0 +1,47 @@
+{
+  "name": "byandreas_manager",
+  "version": "1.0.0",
+  "description": "A manager for andreas' website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "eis d. zaster",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "autoprefixer": "^10.4.13",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.0.2",
+    "postcss-nesting": "^10.2.0",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.3",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
